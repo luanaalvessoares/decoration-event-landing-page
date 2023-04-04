@@ -18,7 +18,34 @@
             <p>Date of the event:</p>
             <p class="event-date">Sunday, May 28th, from 2 pm.</p>
         </div>
-        <div id="subscription-form"></div>
+        <div id="subscription-form">
+            <p>Fill out the form to receive information about the event.</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="interest">Main interest</label>
+                    <select name="interest">
+                        <option value="" disabled>Select</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="house">House</option>
+                        <option value="garden">Garden</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn" value="I want to subscribe">
+            </form>
+        </div>
     </header>
 </body>
 </html>
