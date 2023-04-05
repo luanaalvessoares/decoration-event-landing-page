@@ -1,0 +1,14 @@
+:root {
+    --primary: #EB1CCC;
+    --secondary: #95989A;
+    --text-color: #FFF;
+    --text-secondary: #000;
+    --text-tertiary: #5D5D5D;
+}
+
+* {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
