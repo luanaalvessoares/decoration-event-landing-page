@@ -133,3 +133,14 @@
     margin-bottom: 1em;
 }
 
+#benefit-1 {
+   background-image: url("./img/round-image1.jpg"); 
+}
+
+#benefit-2 {
+    background-image: url("./img/round-image2.jpg"); 
+}
+
+ #benefit-3 {
+    background-image: url("./img/round-image3.jpg"); 
+}
