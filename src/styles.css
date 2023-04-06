@@ -157,3 +157,23 @@
     color: var(--text-color);
     margin-bottom: 3em;
 }
+
+#address,
+#about-location {
+    max-width: 30%;
+}
+
+#address {
+    display: flex;
+}
+
+#address i {
+    color: var(--primary);
+    font-size: 4em;
+    margin-right: 0.5em;
+}
+
+#adress-details {
+    text-align: center;
+    font-size: 1.3em;
+}
