@@ -144,3 +144,16 @@
  #benefit-3 {
     background-image: url("./img/round-image3.jpg"); 
 }
+
+/* Event location */
+#location {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./img/banner2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    margin-bottom: 3em;
+}
