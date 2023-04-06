@@ -197,7 +197,7 @@
 
 .detail {
     display: flex;
-    align-items: flex-start;
+    align-items:center;
     justify-content: space-between;
     gap: 5%;
     margin-bottom: 4em;
@@ -215,10 +215,24 @@
 
 #detail-1 h3,
 #detail-3 h3 {
-    font-size: 1.7em; 
+    font-size: 1.8em; 
 }
 
 .detail-description {
     width: 100%;
     padding-left: 2em;
+}
+
+.detail-description ul {
+    list-style-position: inside;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.detail-description ul li {
+    margin-bottom: 0.4em;
+}
+
+.detail-description ul li:last-child {
+    font-weight: bold;
 }
