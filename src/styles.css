@@ -356,4 +356,28 @@
     #about-location p {
         display: none;
     }
+
+    /* Event details */
+    .detail {
+        flex-direction: column;
+        margin-bottom: 0.5em;
+        gap: 0;
+    }
+
+    .detail img  {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    .detail-description {
+        padding: 0;
+    }
+
+    #detail-3 img {
+        order: 2;
+    }
+
+    #detail-3 . .detail-description {
+        order: 1;
+    }
 }
