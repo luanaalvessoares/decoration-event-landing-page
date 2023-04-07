@@ -389,4 +389,8 @@
     #cta .btn {
         width: 80%;
     }
+
+    .btn {
+        opacity: 1;
+    }
 }
