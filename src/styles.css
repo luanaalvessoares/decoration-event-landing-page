@@ -313,5 +313,16 @@
         margin-bottom: 2em;
     }
 
+    /* Benefits Section */
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
 
+    .benefit {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
 }
