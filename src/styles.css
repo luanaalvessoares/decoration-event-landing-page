@@ -380,4 +380,13 @@
     #detail-3 . .detail-description {
         order: 1;
     }
+
+    /* Call to action section */
+    #cta {
+        text-align: center;
+    }
+
+    #cta .btn {
+        width: 80%;
+    }
 }
