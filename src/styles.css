@@ -197,7 +197,7 @@
 
 .detail {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     gap: 5%;
     margin-bottom: 4em;
@@ -293,7 +293,7 @@
 }
 
 /* Mobile */
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     /* Event form */
     #event-description {
         flex-direction: column;
@@ -377,7 +377,7 @@
         order: 2;
     }
 
-    #detail-3 . .detail-description {
+    #detail-3 .detail-description {
         order: 1;
     }
 
@@ -393,4 +393,19 @@
     .btn {
         opacity: 1;
     }
+}
+
+@media (max-width: 790px) {
+    /* Event form */
+    #event-description {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #subscription-form {
+        max-width: 60%;
+        margin: 1.5em 0;
+    }
+
+    
 }
