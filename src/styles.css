@@ -461,5 +461,16 @@
         font-size: 1.3em;
     }
 
-    
+    /* Call to action section */
+    #cta {
+        text-align: center;
+    }
+
+    #cta .btn {
+        width: 60%;
+    }
+
+    .btn {
+        opacity: 1;
+    }
 }
