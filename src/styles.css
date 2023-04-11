@@ -420,5 +420,28 @@
         margin: 2em 0;
     }
 
+    /* Event location */
+    #location {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    #address {
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #address i {
+        margin: 0.3em 0;
+    }
+
+    #about-location {
+        order: 1;
+        max-width: 80%;
+    }
+
     
 }
