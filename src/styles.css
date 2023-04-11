@@ -443,5 +443,23 @@
         max-width: 80%;
     }
 
+    /* Event details */
+    
+
+    .detail img  {
+        width: 50%;
+        margin: 1em 0;
+    }
+
+    .detail-description {
+        padding-top: 1.1em;
+    }
+
+    #detail-1 h3,
+    #detail-2 h3,
+    #detail-3 h3 {
+        font-size: 1.3em;
+    }
+
     
 }
